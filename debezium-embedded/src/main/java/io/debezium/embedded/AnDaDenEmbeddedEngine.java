@@ -75,7 +75,7 @@ import io.debezium.util.VariableLatch;
  * @author Randall Hauch
  */
 @ThreadSafe
-public final class EmbeddedEngine implements DebeziumEngine<SourceRecord> {
+public final class AnDaDenEmbeddedEngine implements DebeziumEngine<SourceRecord> {
 
     /**
      * A required field for an embedded connector that specifies the unique name for the connector instance.
